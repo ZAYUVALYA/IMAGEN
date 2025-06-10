@@ -5,8 +5,7 @@ Here's a professional and comprehensive **README.md** for your GitHub repository
 # Zayuvalya AI Image Generator 🎨  
 **Create Stunning Images from Text for Free**  
 
-[![License](https://img.shields.io/github/license/ZAYUVALYA/IMAGEN)](https://github.com/ZAYUVALYA/IMAGEN/blob/main/LICENSE)  
-[![GitHub Stars](https://img.shields.io/github/stars/ZAYUVALYA/IMAGEN?style=social)](https://github.com/ZAYUVALYA/IMAGEN)  
+[![License](https://img.shields.io/github/license/ZAYUVALYA/IMAGEN)](https://github.com/ZAYUVALYA/IMAGEN/blob/main/LICENSE)  [![GitHub Stars](https://img.shields.io/github/stars/ZAYUVALYA/IMAGEN?style=social)](https://github.com/ZAYUVALYA/IMAGEN)  
 
 ---
 
