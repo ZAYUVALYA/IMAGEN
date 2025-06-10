@@ -66,6 +66,10 @@
                 });
         });
 
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("promptInput").value = "";
+        });
+
         // Reset button functionality
         document.getElementById('resetBtn').addEventListener('click', () => {
             document.getElementById('promptInput').value = '';
