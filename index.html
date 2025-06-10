@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ZAYUVALYA.github.io/IMAGEN/"> 
+
+    <!-- Page Title -->
+    <title>ZAYUVALYA - AI Image Generator | Create Stunning Images Free</title>
+
+    <!-- Description -->
+    <meta name="description" content="Create unlimited high-quality images with our free AI image generator. No login required! Transform text to images instantly with advanced AI technology. Perfect for designers, creators, and artists.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="image generator, AI image generator, text to image, free image creation, unlimited image generation, no login image generator, creative AI tools, visual content generator, art generator, design tool">
+
+    <!-- Open Graph (Social Media) -->
+    <meta property="og:title" content="ZAYUVALYA AI Image Generator">
+    <meta property="og:description" content="Transform text into stunning visuals with the world's most accessible free AI image generator. Create unlimited images with no restrictions.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/ZAYUVALYA/ZAYUVALYA.github.io/refs/heads/main/ZAYUVALYA%20LOGO%20WHITE.png"> 
+    <meta property="og:url" content="https://ZAYUVALYA.github.io/IMAGEN/"> 
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ZAYUVALYA Image Generator">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ZAYUVALYA AI Image Generator">
+    <meta name="twitter:description" content="Create unlimited high-quality images with our free AI image generator. No login required! Transform text to images instantly with advanced AI technology.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/ZAYUVALYA/ZAYUVALYA.github.io/refs/heads/main/ZAYUVALYA%20LOGO.png"> 
+    <meta name="twitter:site" content="@ZAYUVALYA">
+    <meta name="twitter:creator" content="@ZAYUVALYA">
+
+    <!-- App Icons -->
+    <link rel="icon" href="https://raw.githubusercontent.com/ZAYUVALYA/ZAYUVALYA.github.io/refs/heads/main/ZAYUVALYA%20LOGO%20WHITE.png"  type="image/png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/ZAYUVALYA/ZAYUVALYA.github.io/refs/heads/main/ZAYUVALYA%20LOGO.png"> 
+
+    <!-- Verification Tags (Optional) -->
+    <meta name="google-site-verification" content="khLAYm16l8DIv1CcxAj0QMkBUrosC331XeC1z1m7y9Y" />
+
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org", 
+        "@type": "WebApplication",
+        "name": "Zayuvalya AI Image Generator",
+        "description": "Create unlimited high-quality images with our free AI image generator. No login required!",
+        "url": "https://zayuvalya.github.io/IMAGEN/", 
+        "applicationCategory": "Image Generation",
+        "operatingSystem": "All",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+        }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://ZAYUVALYA.github.io/assets/img/favicon.png"> 
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Flowbite CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="min-h-screen text-white">
+    <!-- Header -->
+    <header class="py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-3">
+                    <img src="https://raw.githubusercontent.com/ZAYUVALYA/ZAYUVALYA.github.io/refs/heads/main/ZAYUVALYA%20LOGO%20WHITE.png"  
+                         width="40" height="40" 
+                         alt="ZAYUVALYA Logo"
+                         class="rounded-lg shadow-lg">
+                    <h1 class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+                        ZAYUVALYA - Image Generator
+                    </h1>
+                </div>
+                
+                <a href="https://ZAYUVALYA.github.io"  
+                   target="_blank"
+                   class="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500/20 to-purple-500/20 hover:from-cyan-500/30 hover:to-purple-500/30 transition-all duration-300">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Visit Community</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="mb-12">
+            <div class="glass-card p-8 rounded-2xl mb-8">
+                <h2 class="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+                    Generate Stunning UHD Images
+                </h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Prompt Input -->
+                    <div class="lg:col-span-2">
+                        <label for="promptInput" class="block mb-3 font-medium">Your Creative Vision</label>
+                        <textarea id="promptInput" 
+                                 rows="5" 
+                                 placeholder="Describe your perfect image... (e.g., 'A futuristic city at night with neon lights')"
+                                 class="w-full p-4 rounded-xl bg-black/50 border border-gray-700 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all duration-300">
+                        </textarea>
+                    </div>
+                    
+                    <!-- Settings -->
+                    <div>
+                        <label for="dimensionSelect" class="block mb-3 font-medium">Resolution & Orientation</label>
+                        <select id="dimensionSelect"
+                                class="w-full p-4 rounded-xl bg-black/50 border border-gray-700 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all duration-300">
+                            <option value="1920x1080">1920x1080 - Landscape (UHD)</option>
+                            <option value="1080x1920">1080x1920 - Portrait (UHD)</option>
+                            <option value="3840x2160">3840x2160 - Landscape (4K)</option>
+                            <option value="2160x3840">2160x3840 - Portrait (4K)</option>
+                            <option value="1280x720">1280x720 - Landscape (HD)</option>
+                            <option value="720x1280">720x1280 - Portrait (HD)</option>
+                        </select>
+                        
+                        <div class="mt-6 flex flex-wrap gap-4">
+                            <button id="generateBtn" 
+                                    class="flex-1 px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-medium text-lg hover:from-cyan-400 hover:to-purple-500 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-500/20 flex items-center justify-center gap-2 hover-glow">
+                                <i class="fas fa-sparkles"></i>
+                                Generate Image
+                            </button>
+                            
+                            <button id="resetBtn"
+                                    class="px-6 py-3 rounded-xl bg-gray-800/50 border border-gray-700 hover:bg-gray-700/50 transition-all duration-300 flex items-center justify-center gap-2">
+                                <i class="fas fa-undo"></i>
+                                Reset
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Output Box -->
+            <div id="outputBox" class="glass-card p-8 rounded-2xl mb-12 output-box min-h-[400px]">
+                <div class="text-center p-8">
+                    <i class="fas fa-image fa-4x text-gray-600 mb-4 animate-pulse"></i>
+                    <p class="text-gray-400">Your generated image will appear here</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">
+                Why Choose ZAYUVALYA?
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature Card -->
+                <div class="glass-card p-6 rounded-xl hover-glow transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500/20 to-purple-500/20 flex items-center justify-center mb-4">
+                        <i class="fas fa-unlock fa-lg text-cyan-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Free & Unlimited</h3>
+                    <p class="text-gray-400">No login required. Generate as many images as you want, completely free of charge.</p>
+                </div>
+                
+                <!-- Feature Card -->
+                <div class="glass-card p-6 rounded-xl hover-glow transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500/20 to-purple-500/20 flex items-center justify-center mb-4">
+                        <i class="fas fa-brush fa-lg text-cyan-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Professional Quality</h3>
+                    <p class="text-gray-400">Create stunning visuals with UHD resolutions up to 4K and intelligent prompt enhancement.</p>
+                </div>
+                
+                <!-- Feature Card -->
+                <div class="glass-card p-6 rounded-xl hover-glow transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500/20 to-purple-500/20 flex items-center justify-center mb-4">
+                        <i class="fas fa-lightbulb fa-lg text-cyan-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">AI-Powered</h3>
+                    <p class="text-gray-400">Leverage cutting-edge AI technology from Pollinations to transform your ideas into reality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="mb-16">
+            <div class="glass-card p-8 rounded-2xl">
+                <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">About This Application</h2>
+                
+                <div class="prose prose-invert max-w-none">
+                    <p class="mb-4">
+                        This powerful image generation tool is developed by the 
+                        <a href="https://ZAYUVALYA.github.io"  target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">ZAYUVALYA community</a>, 
+                        leveraging cutting-edge AI technology from 
+                        <a href="https://pollinations.ai"  target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">Pollinations AI</a>. 
+                        As a completely free and unlimited image generator, you can create stunning visuals without any login requirements or restrictions.
+                    </p>
+                    
+                    <p class="mb-4">
+                        Our application provides access to the best free image generation capabilities, offering an alternative to premium services like Midjourney.
+                        With support for ultra-high definition resolutions and intelligent prompt enhancement, you can create professional-quality images
+                        with just a text description.
+                    </p>
+                    
+                    <div class="seo-keywords mt-6 p-4 bg-black/30 rounded-lg">
+                        <p class="font-semibold text-cyan-400 mb-2">Key Features:</p>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                            <li>✅ Free & Unlimited Image Generation</li>
+                            <li>✅ No Login Required</li>
+                            <li>✅ UHD & 4K Resolution Support</li>
+                            <li>✅ Portrait & Landscape Orientations</li>
+                            <li>✅ Intelligent Prompt Enhancement</li>
+                            <li>✅ Powered by Pollinations AI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donate Section -->
+        <section class="mb-16">
+            <div class="glass-card p-8 rounded-2xl text-center">
+                <h2 class="text-3xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text">Support Our Development</h2>
+                <p class="mb-6 text-gray-300 max-w-2xl mx-auto">Help us maintain and improve this free service through donations. Your contribution keeps this project alive!</p>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-6 mt-8">
+                    <a href="http://paypal.me/VIVALDIMAZZA" 
+                       target="_blank"
+                       class="flex flex-col items-center gap-2 p-4 rounded-xl bg-gradient-to-r from-blue-600/20 to-indigo-600/20 hover:from-blue-600/30 hover:to-indigo-600/30 transition-all duration-300">
+                        <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/paypal/default.svg"  
+                             width="40" 
+                             height="30" 
+                             alt="PayPal">
+                        <span class="text-sm font-medium">Donate via PayPal</span>
+                    </a>
+                    
+                    <a href="http://lynk.id/milyohiro/s/DaJ072Z" 
+                       target="_blank"
+                       class="flex flex-col items-center gap-2 p-4 rounded-xl bg-gradient-to-r from-green-600/20 to-emerald-600/20 hover:from-green-600/30 hover:to-emerald-600/30 transition-all duration-300">
+                        <img src="https://home.oxygen.id/assets/images/info-pembayaran/qris-logo.png"  
+                             width="50" 
+                             height="30" 
+                             alt="QRIS">
+                        <span class="text-sm font-medium">QRIS Donation</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 border-t border-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500">&copy; <span id="currentYear"></span> ZAYUVALYA Image Generator</p>
+                
+                <div class="flex gap-4">
+                    <a href="https://ZAYUVALYA.github.io"  target="_blank" class="text-gray-500 hover:text-cyan-400 transition-colors">
+                        <i class="fas fa-users"></i> Community
+                    </a>
+                    <a href="https://pollinations.ai"  target="_blank" class="text-gray-500 hover:text-cyan-400 transition-colors">
+                        <i class="fas fa-brain"></i> Pollinations AI
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script> 
+    
+    <!-- Application Script -->
+    <script src="main.js"></script>
+</body>
+</html>

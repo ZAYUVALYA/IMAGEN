@@ -1,0 +1,53 @@
+
+        :root {
+            --dark-bg: #0f0f0f; 
+            --glass-bg: rgba(25, 25, 25, 0.8);
+            --accent: #00ffcc;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            font-family: 'Inter', sans-serif;
+            backdrop-filter: blur(20px);
+        }
+
+        .glass-card {
+            background: var(--glass-bg);
+            border-radius: 2rem;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .gradient-border {
+            background: linear-gradient(45deg, #00ffcc, #7d5fff, #00ffcc);
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        .hover-glow:hover {
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .output-box {
+            min-height: 400px;
+            background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+            border-radius: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .seo-keywords {
+            font-size: 0.85rem;
+            color: #888;
+        }
