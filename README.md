@@ -1,6 +1,4 @@
-Here's a professional and comprehensive **README.md** for your GitHub repository:
 
----
 
 # Zayuvalya AI Image Generator 🎨  
 **Create Stunning Images from Text for Free**  
